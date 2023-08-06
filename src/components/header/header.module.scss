@@ -12,6 +12,7 @@
 .headerInner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     position: relative;
 }
@@ -30,7 +31,7 @@
     row-gap: 12px;
 
 
-    > a {
+    a {
         text-decoration: none;
         color: rgba($color: #000000, $alpha: 0.5);
         
@@ -39,4 +40,82 @@
             color: rgba($color: #000000, $alpha: 1);
         }
     }
+}
+
+.utilsContainer {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 18px;
+}
+
+.cityContainer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    img {
+        opacity: 0.5;
+    }
+
+    div {
+        opacity: 0.5;
+    }
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+    button {
+        border: 1px #00D36D solid;
+        background: #fff;
+
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 10px 20px;
+        color: #00D36D;
+
+        &:hover {
+
+            background: #00D36D;
+            color: #fff;
+            transition: all 0.15s linear;
+        }
+    }
+}
+
+.searchInner {
+    
+    display: flex;
+    align-items: center;
+    img {
+        cursor: pointer;
+    }
+    
+    .search {
+        width: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .searchActive {
+        width: 200px;
+        border: 0;
+        outline: 0;
+        border-bottom: rgba($color: #000000, $alpha: 0.5) 1px solid;
+        
+        padding: 5px;
+        
+        
+
+        &::placeholder {
+            color: rgba($color: #000000, $alpha: 0.5);
+            font-size: 14px;
+        }
+    }
+
 }
