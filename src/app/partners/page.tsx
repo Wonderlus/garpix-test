@@ -1,3 +1,4 @@
+import Examples from "@/components/Examples/Examples";
 import Offers from "@/components/Offers/Offers";
 import Partners from "@/components/Partners/Partners";
 
@@ -6,6 +7,7 @@ const PartnersPage = () => {
         <>
             <Partners />
             <Offers />
+            <Examples />
         </>
     );
 };

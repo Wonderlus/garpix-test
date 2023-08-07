@@ -9,7 +9,7 @@ import { useState } from "react";
 const Header = () => {
     const pathname = usePathname();
 
-    const [isSearch, setSearch] = useState(false);
+    const [isSearch, setSearch] = useState(true);
 
     return (
         <div className={styles.container}>

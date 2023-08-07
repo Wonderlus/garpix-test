@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+
+    margin-bottom: 160px;
+}
+
+
+.blockBig {
+    display: flex;
+    gap: 40px;
+}
+
+.blockSmall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer {
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    background: #fff;
+    padding: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
