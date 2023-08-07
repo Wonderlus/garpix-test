@@ -1,11 +1,5 @@
+const PartnersPage = () => {
+    return <div></div>;
+};
 
-
-const Partners = () => {
-    return ( 
-        <div>
-
-        </div>
-     );
-}
- 
-export default Partners;
+export default PartnersPage;
