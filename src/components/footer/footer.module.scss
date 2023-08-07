@@ -1,13 +1,13 @@
 .container {
-    position: absolute;
 
-    bottom: 0;
-    left: 0;
 
     padding: 40px 135px;
     display: flex;
     gap: 120px;
     align-items: center;
+
+    background: #fff;
+
 }
 
 .number {
@@ -41,6 +41,10 @@
             color: #000;
             text-decoration: none;
         }
+    }
+
+    img {
+        cursor: pointer;
     }
 }
 

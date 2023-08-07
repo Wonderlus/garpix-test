@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    redirects() {
+        return [
+            {
+                source: "/",
+                destination: "/partners",
+                permanent: false,
+            }
+        ]
+    }
+}
 
 module.exports = nextConfig

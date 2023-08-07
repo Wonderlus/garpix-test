@@ -1,5 +1,9 @@
+import Partners from "@/components/Partners/Partners";
+
 const PartnersPage = () => {
-    return <div></div>;
+    return (
+        <Partners />
+    );
 };
 
 export default PartnersPage;
