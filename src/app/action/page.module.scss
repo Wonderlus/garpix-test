@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1170px;
-    
+    margin-bottom: 50px;
     img {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
@@ -49,6 +49,9 @@
 .actionInner {
     background: #fff;
     padding: 0 50px 50px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
 }
 
 .subtitle {

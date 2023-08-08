@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import Link from "next/link";
+import AppleLocation from "@/components/AppleLocation/AppleLocation";
 
 const Action = () => {
     return (
@@ -116,6 +117,8 @@ const Action = () => {
                     </div>
                 </div>
             </div>
+
+            <AppleLocation />
         </div>
     );
 };
