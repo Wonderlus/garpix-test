@@ -18,6 +18,7 @@
 
     section {
         flex: 1 1 0;
+        max-width: 377px;
     }
 }
 
@@ -50,4 +51,41 @@
     line-height: 22px;
     border-radius: 8px;
     margin-bottom: 120px;
+}
+
+
+@media (max-width: 1000px) {
+    .title {
+        text-align: center;
+    }
+
+    .offers {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 717px) {
+    .container {
+        padding: 0 20px;
+    }
+    .title {
+        font-size: 24px;
+        
+    }
+}
+
+@media (max-width: 414px) {
+
+    .offers {
+        section {
+            max-width: 280px;
+
+            > img {
+                width: 280px;
+                height: auto;
+            }
+        }
+    }
+
 }

@@ -43,6 +43,9 @@
     img {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
+        max-width: 1170px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -150,5 +153,92 @@
         color: #00D36D;
         text-decoration: none;
         
+    }
+}
+
+@media (max-width: 900px) {
+
+    .container {
+        padding: 200px 50px 0;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 717px) {
+
+    .container {
+        padding: 150px 50px 0;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .instruction {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .links {
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+
+    .container {
+        padding: 150px 20px 0;
+    }
+
+    .actionInner {
+        padding: 0 20px 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .actionText {
+        font-size: 12px;
+    }
+
+    .pros {
+        font-size: 12px;
+    }
+
+    .use {
+        font-size: 16px;
+    }
+
+    .instruction {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .links {
+        a {
+            font-size: 12px;
+        }
     }
 }
