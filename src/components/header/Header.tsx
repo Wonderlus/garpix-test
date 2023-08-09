@@ -30,17 +30,12 @@ const Header = () => {
                     <Link href={""}>Каршеринг</Link>
                     <Link href={""}>Театры</Link>
                     <Link href={""}>Страхование</Link>
-                    <Link
-                        className={
-                            pathname === "/connection" ? styles.active : ""
-                        }
-                        href={"/connection"}
-                    >
+                    <Link href={""}>
                         Как подключиться
                     </Link>
                     <Link
                         className={
-                            pathname === "/partners" ? styles.active : ""
+                            pathname === "/partners" || "/action" ? styles.active : ""
                         }
                         href={"/partners"}
                     >
