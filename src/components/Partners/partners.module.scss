@@ -127,3 +127,23 @@
     border-radius: 8px;
     margin-bottom: 120px;
 }
+
+@media (max-width: 900px) {
+    .categories {
+        padding: 0 100px;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-top: 150px;
+    }
+    .title {
+        font-size: 32px;
+    }
+}

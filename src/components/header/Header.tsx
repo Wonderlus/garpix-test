@@ -10,7 +10,8 @@ const Header = () => {
     const pathname = usePathname();
 
     const [isSearch, setSearch] = useState(true);
-
+    const [isBurger, setBurger] = useState(false);
+    
     return (
         <div className={styles.container}>
             <div className={styles.headerInner}>
@@ -20,7 +21,7 @@ const Header = () => {
                     width={180}
                     height={80}
                 />
-                <nav className={styles.nav}>
+                <nav className={styles.nav} style={isBurger ? {"display": "flex"} : {}}>
                     <Link href={""}>Купоны и сертификаты</Link>
                     <Link href={""}>Впечатления</Link>
                     <Link href={""}>Авиабилеты</Link>
@@ -78,6 +79,9 @@ const Header = () => {
                         </div>
                         <button className={styles.button}>Войти</button>
                     </div>
+                </div>
+                <div onClick={() => {setBurger(prev => !prev)}} className={styles.burger}>
+                    
                 </div>
             </div>
         </div>
